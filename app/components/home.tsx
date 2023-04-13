@@ -169,7 +169,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Sooyan</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            <a href="http://www.sooyan.com.cn/">Make by Sooyan company.</a>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
