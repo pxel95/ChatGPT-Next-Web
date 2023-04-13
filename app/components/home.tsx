@@ -167,7 +167,7 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Sooyan</div>
+          <div className={styles["sidebar-title"]}>上海索验聊天GPT</div>
           <div className={styles["sidebar-sub-title"]}>
             <a href="http://www.sooyan.com.cn/">Make by Sooyan company.</a>
           </div>
@@ -203,11 +203,6 @@ function _Home() {
                 }}
                 shadow
               />
-            </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
-              </a>
             </div>
           </div>
           <div>
